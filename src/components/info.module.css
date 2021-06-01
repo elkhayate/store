@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+.info {
+    margin-top: 70px;
+    width: 90%;
+    margin: auto;
+}
+
+.title {
+    font-family: 'Pattaya', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 250px;
+}
+.contact {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+.mail, .telefon {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 25%;
+    height: 200px;
+}
+.detail {
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    display: flexbox;
+    justify-content: center;
+    align-content: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: 'Arimo', sans-serif;
+}
+.detail h1 {
+    text-transform: capitalize;
+    color: #00abf0;
+}
+.logo {
+    width: 20%;
+    margin:10px;
+    margin-left: 50px;
+}
