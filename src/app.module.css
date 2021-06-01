@@ -1,0 +1,20 @@
+.home {
+
+    height: 110%;
+    width: 100%;
+    position: absolute;
+    margin-top: 70px;
+}
+.cards {
+    width: 70%; 
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.title {
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}

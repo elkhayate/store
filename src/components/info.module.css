@@ -12,6 +12,8 @@
     font-weight: normal;
     text-align: center;
     margin-top: 250px;
+    color: white;
+    margin-bottom: 50px;
 }
 .contact {
     width: 90%;
@@ -52,4 +54,30 @@
     width: 20%;
     margin:10px;
     margin-left: 50px;
+}
+
+@media (max-width : 770px) {
+    .contact {
+        display: flexbox;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .mail, .telefon {
+        height: 150px;
+        margin: 15px;
+        width: 90%;
+    }
+    .telefon {
+        order: 2;
+    }
+    .detail {
+        margin-left: 22px;
+        margin-top: 22px;
+    }
+    .logo {
+        margin-left: 25px;
+    }
+    .title {
+        margin-top: 150px;
+    }
 }
