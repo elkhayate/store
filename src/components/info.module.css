@@ -71,11 +71,12 @@
         order: 2;
     }
     .detail {
-        margin-left: 22px;
+        margin-left: 0px;
         margin-top: 22px;
     }
     .logo {
-        margin-left: 25px;
+        margin-left: 5px;
+        margin-bottom: 50px;
     }
     .title {
         margin-top: 150px;
